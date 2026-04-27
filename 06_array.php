@@ -19,6 +19,32 @@ echo '<br>';
 echo $carro_um['marca'];
 echo '<br>';
 echo $carro_um['cor'];
+echo '<hr>';
+
+
+$carro_dois = [
+    'modelo' => 'Polo',
+    'marca' => 'Volkswagen',
+    'cor' => 'Prata'
+];
+echo $carro_dois['modelo'];
+echo '<br>';
+echo $carro_dois['marca'];
+echo '<br>';
+echo $carro_dois['cor'];
+echo '<hr>';
+
+
+$carro_tres = [
+    'modelo' => 'Civic',
+    'marca' => 'Honda',
+    'cor' => 'Preto'
+];
+echo "Modelo: " . $carro_tres['modelo'];
+echo '<br>';
+echo "Marca: " . $carro_tres['marca'];
+echo '<br>';    
+echo "Cor: " . $carro_tres['cor'];
 
 
 ?>
