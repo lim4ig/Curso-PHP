@@ -23,4 +23,4 @@ var_dump($carrinho);
 
 echo '<hr>'
 
-?>?>
+?>
