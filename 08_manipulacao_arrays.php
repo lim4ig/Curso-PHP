@@ -36,4 +36,8 @@ echo '<hr>';
 $carrinho = array_unique($carrinho);
 var_dump($carrinho);
 
+//array_pop() -> remove o último elemento de um array
+//array_shift() -> remove o primeiro elemento de um array
+
 ?>
+
